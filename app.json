@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Mapa",
+    "icon": "./maps-icon.png",
+    "version": "1.0.0",
+    "slug": "mapa",
+    "sdkVersion": "16.0.0",
+    "loading":{
+      "icon": "./maps-icon.png",
+      "hideExponentText": true
+    },
+    "ios": {
+      "bundleIdentifier": "com.santistebanc.mapa",
+    },
+    "android": {
+      "package": "com.santistebanc.mapa",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAhFd_FaMTHpGUk4BjbKyjyPWCikfq_5jY"
+        }
+      }
+    }
+  }
+}
